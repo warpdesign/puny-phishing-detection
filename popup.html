@@ -1,0 +1,28 @@
+<html>
+<head>
+    <style type="text/css">
+        p{
+            min-width:300px;
+        }
+
+        #adressbar, #real{
+            text-decoration:underline;
+        }
+
+        #error{
+            display:none;
+        }
+    </style>
+    <script type="text/javascript" src="js/popup.js">
+    </script>
+</head>
+<body>
+<p id="ok">
+    <strong style="color:green;">OK:</strong> no phishing attempt detected.
+</p>
+
+<p id="error">
+    <strong style="color:red;">WARNING:</strong> possible phishing attempt: the address bar shows <span id="adressbar"></span> but the real domain name is actually <span id="real"></span>.
+</p>
+</body>
+</html>
