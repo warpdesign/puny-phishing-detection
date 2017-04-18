@@ -6,8 +6,8 @@ window.onload = function() {
     console.log('onload', data);
 
     if (data) {
-        document.getElementById('adressbar').innerHTML = data.host;
-        document.getElementById('real').innerHTML = data.puny;
+        document.getElementById('adressbar').innerHTML = data.puny;
+        document.getElementById('real').innerHTML = data.host;
         document.getElementById('error').style.display = "block";
         document.getElementById('ok').style.display = "none";
     } else {
