@@ -1,5 +1,5 @@
 var host = document.location.host,
-    puny = punycode.toASCII(host);
+    puny = punycode.toUnicode(host);
 
 chrome.runtime.sendMessage(
     {
